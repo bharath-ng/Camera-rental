@@ -1,0 +1,67 @@
+{
+  "cameras": [
+    {
+      "id": 1,
+      "ownerType": "individual",
+      "ownerName": "Kumar Sharma",
+      "title": "Canon EOS 200D",
+      "lensDescription": "18-55mm kit lens, great for beginners",
+      "pricePerDay": 500,
+      "location": "Bangalore",
+      "contact": "+91-9885236459",
+      "images": [
+        "/images/camera1.jpg",
+        "/images/lens1.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "ownerType": "individual",
+      "ownerName": "Boss",
+      "title": "Sony A7III",
+      "lensDescription": "Full-frame with 50mm prime",
+      "pricePerDay": 3500,
+      "location": "Bangalore",
+      "contact": "+91-9778453658",
+      "images": [
+        "/images/camera2.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "ownerType": "individual",
+      "ownerName": "Ravi Sharma",
+      "title": "Canon EOS 70D",
+      "lensDescription": "18-55mm kit lens, great for beginners",
+      "pricePerDay": 900,
+      "location": "Bangalore",
+      "contact": "+91-9802145896",
+      "images": [
+        "/images/camera1.jpg",
+        "/images/lens1.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "ownerType": "individual",
+      "ownerName": "Bharath NG",
+      "title": "nikon",
+      "lensDescription": "550mm\n450mm",
+      "pricePerDay": 700,
+      "location": "Bangalore",
+      "contact": "+91 7676852689",
+      "images": []
+    },
+    {
+      "id": 5,
+      "ownerType": "individual",
+      "ownerName": "Sundeep",
+      "title": "sony",
+      "lensDescription": "dfs",
+      "pricePerDay": 123,
+      "location": "sagar",
+      "contact": "8794132122",
+      "images": []
+    }
+  ]
+}

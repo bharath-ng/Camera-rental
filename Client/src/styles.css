@@ -1,0 +1,30 @@
+/* simple, pleasant UI — put in src/styles.css */
+body, html, #root { height: 100%; margin: 0; font-family: Inter, Arial, sans-serif; }
+.app-bg {
+  min-height: 100vh;
+  background-image: url('/images/bg1.jpg'); /* add a background image file in public/images/bg1.jpg */
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  box-sizing: border-box;
+  backdrop-filter: blur(0.2px);
+}
+
+.card {
+  background: rgba(255,255,255,0.9);
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  max-width: 920px;
+  margin: 12px auto;
+}
+
+.login-card { max-width: 420px; margin-top: 60px; }
+label { display:block; font-size: 13px; margin-top: 10px; color: #333; }
+input, textarea, select { width:100%; padding:10px; margin-top:6px; border-radius:8px; border:1px solid #ddd; box-sizing:border-box; }
+.btn { background:#1f6feb; color:white; padding:10px 14px; border:none; border-radius:8px; margin-top:12px; cursor:pointer; }
+.btn.outline { background:transparent; border:1px solid #1f6feb; color:#1f6feb; }
+.row { display:flex; gap:10px; align-items:center; }
+.grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(300px,1fr)); gap:12px; padding:12px; }
+.camera-card { display:flex; gap:12px; padding:12px; border-radius:10px; background:#fff; }
+.camera-card img { width:160px; height:110px; object-fit:cover; border-radius:8px; }
