@@ -15,7 +15,7 @@ export default function RenterList({ user }) {
   async function fetchList(cityFilter="") {
     setLoading(true);
     try {
-      const url = cityFilter ? `http://localhost:5000/cameras?location=${encodeURIComponent(cityFilter)}` : "http://localhost:5000/cameras";
+      const url = cityFilter ? `https://camera-rental-4ung.onrender.com/cameras?location=${encodeURIComponent(cityFilter)}` : "http://localhost:5000/cameras";
       const res = await axios.get(url);
       setCameras(res.data || []);
     } catch (err) {

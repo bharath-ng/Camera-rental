@@ -20,7 +20,7 @@ export default function OwnerForm({ user }) {
       images: images.split(",").map(s=>s.trim()).filter(Boolean)
     };
     try {
-      await axios.post("http://localhost:5000/cameras", payload);
+      await axios.post("https://camera-rental-4ung.onrender.com/cameras", payload);
       alert("Camera listed successfully!");
       // clear
       setTitle(""); setLensDescription(""); setPricePerDay(""); setImages("");
